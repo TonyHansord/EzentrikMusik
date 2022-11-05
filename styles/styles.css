@@ -1,7 +1,7 @@
 :root {
-  --light-primary: #9ff7cd;
+  --light-primary: #00fff7;
   --light-secondary: #a6ffd4;
-  --dark-primary: rgb(51, 57, 84);
+  --dark-primary: rgb(16, 16, 16);
   --dark-secondary: #4c547c;
   --dark-accent: #d3d8f1;
   --primary-font: "Ubuntu", sans-serif;
@@ -12,6 +12,23 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+
+body {
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
 }
 
 /* small screens */
